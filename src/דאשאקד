@@ -1,0 +1,14 @@
+0,1 - disarmed, armed
+0,1 - non-alarm, alarm
+0,1,2,3 - not armed, armed_keypad, armed_home_code, armed_away_code
+
+
+
+ConsoleState:SystemState:AlarmState
+
+|c     |s |A |
+===============
+|0     |0 |0  |
+---------------
+|1/2/3 |1 |0/1|
+-----------
