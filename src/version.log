@@ -1,0 +1,55 @@
+
+/*
+   ESP8266 Alarm monitoring system, by guyDvir Apr.2019
+
+   Pupose of this code is to monitor, notify and change syste, states of an existing
+   Alarm system ( currently using PIMA alarm system incl. RF detectors) has the
+   following hardware:
+   1) Main Controller AKA " the brain"
+   2) KeyPad for entering user codes and change syste states.
+   3) "the brain" has relay inputs knows as external key operation:
+ */
+
+// UPDATE 15/06/2020 - removeing Telegram Nitofocation from code. update iot - 7.11
+// Previous version 2.1, iot1.43
+
+/*Update 11/2020
+1.Update iot Services
+2. know bug when arm_home using code, it arm_away.
+*/
+
+/*Update 5/2021
+1.Update iot2 Services
+2. know bug when arm_home using code, it arm_away.
+*/
+
+/*Update 7/2021
+1.Update iot2 Services
+2. MQTT help2 fix
+3. know bug when arm_home using code, it arm_away.
+*/
+
+/*Update 8/2021
+1.Update iot2 Services
+2. switch 2 uint_8 instead of byte
+3. know bug when arm_home using code, it arm_away.
+*/
+
+/*Update 12/2021
+1. Update iot2 Services. change network
+2. change to cleaner code. err 3 still persists
+3. know bug when arm_home using code, it arm_away.
+*/
+
+/*Update 04/2022
+1. Fixing main issue of armed_home and armed_away.
+2. swap D5 and D6 - Zone8 is now responsible for armed_home and KEY for armed_away.
+3. version 4
+*/
+
+
+/*Update 11/2024
+1. Chaning entire code.
+2. D1 & D2 instead of D3 & D4 (caused problems at reboot when armed)
+3. version 5
+*/
